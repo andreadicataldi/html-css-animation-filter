@@ -27,3 +27,25 @@
     transition: 1s;
     transform: scale(0.5);
 }
+
+.ex-6-img:hover {
+    filter: grayscale(100%);
+}
+
+.ex-7-img:hover {
+    transition: 2s;
+    filter: sepia(75%) grayscale(25%);
+}
+
+.ex-8-img:hover {
+    transition: 2s;
+    border-radius: 20px;
+    filter: sepia(75%) grayscale(25%);
+}
+
+.ex-9-img:hover {
+    transition: 2s;
+    border-radius: 20px;
+    transform: scale(1.5);
+    filter: sepia(75%) grayscale(25%);
+}
